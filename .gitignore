@@ -31,3 +31,7 @@ build/
 
 # Coverage
 coverage/
+
+# Lock files (optional — see README for note)
+package-lock.json
+yarn.lock
