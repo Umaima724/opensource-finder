@@ -93,7 +93,7 @@ The frontend then displays a retry message to the user.
 
 | Tool | What I asked | What it gave me | What I changed |
 |---|---|---|---|
-| ChatGPT | "Build a full-stack GitHub API consumer for finding beginner-friendly repos with error handling" | Suggested architecture (React + Express), endpoint structure, and project organization | I manually added `AbortController` timeout handling because the initial AI-generated version did not properly handle slow APIs. I also improved validation logic (such as `minStars > maxStars`) and added frontend warning states for slow responses. |
+| ChatGPT & Claude | "Build a full-stack GitHub API consumer for finding beginner-friendly repos with error handling" | Suggested architecture (React + Express), endpoint structure, and project organization | I manually added `AbortController` timeout handling because the initial AI-generated version did not properly handle slow APIs. I also improved validation logic (such as `minStars > maxStars`) and added frontend warning states for slow responses. |
 
 I used AI mainly for:
 - scaffolding the project structure
